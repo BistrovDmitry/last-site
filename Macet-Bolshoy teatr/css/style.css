@@ -1,0 +1,26 @@
+*{
+    max-width: 1920px;
+}
+.fixed-panel{
+    position: absolute;
+    width: 150px;
+    height: 1045px;
+    left: 0px;
+    top: 0px;
+}
+.poster{
+    position: absolute;
+width: 540px;
+height: 296px;
+left: 405px;
+top: 384px;
+color: #FFFFFF;
+}
+.first-button{
+    background: #D1A954;
+    color: #FFFFFF;
+width: 160px;
+height: 50px;
+left: 405px;
+top: 630px;
+}
