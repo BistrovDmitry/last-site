@@ -1,14 +1,25 @@
 *{
     max-width: 1920px;
 }
-.fixed-panel{
-    position: absolute;
-    width: 150px;
-    height: 1045px;
-    left: 0px;
-    top: 0px;
+.background{
+    position: relative;
+width: 1920px;
+height: 4550px;
+top: -10px;
+background: #333333;
 }
-.poster{
+.img-1{
+ position: relative;
+    }
+    .img-2{
+        background-color: blue;
+    position: absolute;
+width: 150px;
+height: 1045px;
+left: 0px;
+top: 0px;
+    }
+.description{
     position: absolute;
 width: 540px;
 height: 296px;
@@ -23,4 +34,116 @@ width: 160px;
 height: 50px;
 left: 405px;
 top: 630px;
+}
+.Poster-2{
+    position: absolute;
+    width: 350px;
+    height: 490px;
+    left: 1090px;
+    top: 287px;
+}
+.Poster-1{
+    position: absolute;
+width: 350px;
+height: 490px;
+left: 1070px;
+top: 267px;
+
+}
+
+.Arrow-1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 40px;
+    height: 0px;
+    left: 1070px;
+    top: 824px;
+    
+    border: 2px solid #C4C4C4;
+
+}
+.Text-Arrow-1{
+    color: white;
+    position: absolute;
+    width: 43px;
+    height: 25px;
+    left: 1135px;
+    top: 812px;
+}
+.Text-Arrow-2{
+    color: white;
+position: absolute;
+width: 43px;
+height: 25px;
+left: 1335px;
+top: 812px;
+}
+.Arrow-2{
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+position: absolute;
+width: 40px;
+height: 0px;
+left: 1400px;
+top: 824px;
+}
+
+.Theater-text-header{
+    font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: 300;
+font-size: 48px;
+line-height: 65px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+    color: #C4C4C4;
+    position: absolute;
+width: 260px;
+height: 65px;
+left: 872px;
+top: 1195px;
+}
+.Theater-text-1{color: #FFFFFF;
+    font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 29px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+    position: absolute;
+width: 445px;
+height: 23px;
+left: 405px;
+top: 1360px;
+}
+.Theater-text-2{
+    position: absolute;
+    width: 445px;
+    height: 210px;
+    left: 405px;
+    top: 1423px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;    
+}
+.Theater-text-3{
+    position: absolute;
+width: 290px;
+height: 23px;
+left: 880px;
+top: 1360px;
+font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 29px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
 }
