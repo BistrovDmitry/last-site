@@ -6,7 +6,7 @@
 width: 1920px;
 height: 4550px;
 margin-top: -10px;
-
+opacity: 90%;
 background: #333333;
 }
 .img-1{
@@ -195,16 +195,65 @@ top: 1967px;
 position: absolute;
 
 }
-.Productions-img-1{
-
+.Beast-Theater-img-1{
+    width: 1110px;
+    height: 550px;
+    left: 405px;
+    top: 2667px;
+    position: absolute;
 }
-.Productions-img-2{
+ .Beast-Theater-star-1{
+    position: absolute;
+width: 230px;
+height: 24px;
+left: 880px;
+top: 2838px;
+ }
+ .Beast-Theater-text-1{
+    position: absolute;
+width: 540px;
+height: 149px;
+left: 880px;
+top: 2887px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 150%;
+color: #FFFFFF;
+ }
+ .Beast-Theater-text-2{
+    position: absolute;
+    width: 182px;
+    height: 298px;
+    left: 595px;
+    top: 2793px;
+    
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #D1A954;
+ }
+ .TheaterPartners-text-1{
+    position: relative;
+    display: grid;
+ width: 358px;
+height: 65px;
+left: 781px;
+top: -1005px;
+color: #FFFFFF;
+/* h2 / 48l */
 
-
-}
-.Productions-img-3{
-
-}
-.Productions-img-4{
-     
-}
+font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: 300;
+font-size: 48px;
+line-height: 65px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+ }
